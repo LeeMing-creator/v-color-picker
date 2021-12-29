@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <div class="bg" :style="{ background: color }">
-      <div class="title">vue-color-kit</div>
+      <!-- <div class="title">vue-color-kit</div> -->
       <div class="cover">
         <color-picker
           :theme="theme"
@@ -15,11 +15,11 @@
         <img v-if="isOpenSucker" ref="cover" />
       </div>
     </div>
-    <div class="github">
+    <!-- <div class="github">
       <a href="https://github.com/anish2690/vue-color-kit" target="_blank">
         Fork me on GitHub
       </a>
-    </div>
+    </div> -->
     <div
       class="switch"
       :class="{ 'anim-pull': inAnimation }"
