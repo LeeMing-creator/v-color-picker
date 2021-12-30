@@ -20,12 +20,12 @@
         Fork me on GitHub
       </a>
     </div> -->
-    <div
+    <!-- <div
       class="switch"
       :class="{ 'anim-pull': inAnimation }"
       @animationend="animationEnd"
       @click="changeTheme"
-    />
+    /> -->
   </div>
 </template>
 

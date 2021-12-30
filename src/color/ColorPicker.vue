@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="hu-color-picker"
-    :class="{ light: isLightTheme }"
-    :style="{ width: totalWidth + 'px' }"
-  >
+  <div class="hu-color-picker" v-bind:style="{ width: totalWidth + 'px' }">
     <div class="color-set">
       <Saturation
         ref="saturation"
